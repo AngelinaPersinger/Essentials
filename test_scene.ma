@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: test_scene.ma
-//Last modified: Thu, Sep 10, 2026 02:51:09 PM
+//Last modified: Thu, Sep 10, 2026 02:52:45 PM
 //Codeset: 1252
 file -rdi 1 -ns "chair" -rfn "chairRN" -op "v=0;" -typ "mayaAscii" "C:/Users/NinaS/OneDrive/Documents/maya/projects/default/assets/chair.ma";
 file -rdi 1 -ns "table" -rfn "tableRN" -op "v=0;" -typ "mayaAscii" "C:/Users/NinaS/OneDrive/Documents/maya/projects/default/assets/table.ma";
@@ -22,15 +22,15 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "6691768E-4875-8C55-1E06-A7BCFB743321";
+fileInfo "UUID" "A9123AAC-4565-9638-93E3-A4A90FCD755B";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "CD8B37EF-4EB9-CED6-6764-6D911EBD00E1";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 52.62913714021937 25.413021583174253 9.511195188345404 ;
-	setAttr ".r" -type "double3" -10.889548737866525 79.2281882741743 0 ;
-	setAttr ".rp" -type "double3" 2.2204460492503131e-16 5.3290705182007514e-15 1.4210854715202004e-14 ;
-	setAttr ".rpt" -type "double3" -2.342964436115391e-14 2.9978967594019246e-14 -5.3205340556334839e-14 ;
+	setAttr ".t" -type "double3" 49.68434922981718 26.195284046382792 19.115565815830386 ;
+	setAttr ".r" -type "double3" -11.727206333087064 68.456376548348615 -4.1141730034527874e-14 ;
+	setAttr ".rp" -type "double3" -4.5519144009631418e-15 7.1054273576010019e-15 -7.1054273576010019e-15 ;
+	setAttr ".rpt" -type "double3" -3.873830573571338e-14 2.6305563084672601e-14 -3.4327476274914962e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "B6706F00-488A-3AB7-8FA4-AE9F9BE53B97";
 	setAttr -k off ".v" no;
@@ -39,7 +39,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -0.010690689086914062 15.104503086694434 -0.50355148091637147 ;
+	setAttr ".tp" -type "double3" -0.010690689086928273 15.104503086694418 -0.50355148091638924 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "4A4962C0-4B3F-7417-1971-C598E0FC94CE";
