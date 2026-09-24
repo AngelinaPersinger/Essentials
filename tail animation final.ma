@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: tail animation final.ma
-//Last modified: Wed, Sep 23, 2026 06:12:27 PM
+//Last modified: Wed, Sep 23, 2026 06:15:01 PM
 //Codeset: 1252
 requires maya "2027";
 requires "stereoCamera" "10.0";
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202604221258-70da84b25e";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 26200)";
-fileInfo "UUID" "DC191480-40DF-A2EF-DD34-BAAE07AC9A92";
+fileInfo "UUID" "64905A71-42D2-1118-B4EC-5B8A8902F5EF";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "30BE2BA4-47FF-D7D8-8F86-FFBACC261487";
@@ -34908,7 +34908,7 @@ createNode transform -n "CTRL_kuyruk_01" -p "CTRL_kuyruk_01_Grp";
 	setAttr -l on -k off ".sx";
 	setAttr -l on -k off ".sy";
 	setAttr ".rp" -type "double3" 0 1 0.97778891662075229 ;
-	setAttr ".rpt" -type "double3" 0 -2.0261570199409107e-15 -1.8041124150158794e-16 ;
+	setAttr ".rpt" -type "double3" 0 -2.4424906541753444e-15 -9.9920072216264089e-16 ;
 	setAttr ".sp" -type "double3" 0 1 0.97778891662075229 ;
 createNode nurbsCurve -n "CTRL_kuyruk_01Shape" -p "CTRL_kuyruk_01";
 	rename -uid "BA690D39-460B-B675-3163-7180DD8C8D27";
@@ -35053,7 +35053,7 @@ createNode parentConstraint -n "CTRL_kuyruk_04_Grp_parentConstraint2" -p "CTRL_k
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 5.9164567891575885e-31 -1.0000000000000002 
 		-2.6612591110869595 ;
-	setAttr ".lr" -type "double3" 40.584540766716742 0 0 ;
+	setAttr ".lr" -type "double3" -24.838683980625163 0 0 ;
 	setAttr ".rst" -type "double3" 0 0 -2.2204460492503131e-16 ;
 	setAttr -l on -k off ".int";
 	setAttr -l on ".w0";
@@ -35141,7 +35141,7 @@ createNode parentConstraint -n "CTRL_kuyruk_03_Grp_parentConstraint2" -p "CTRL_k
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 1.9721522630525295e-31 -1.0000000000000002 
 		-1.7255770013869023 ;
-	setAttr ".lr" -type "double3" 56.708035438001893 0 0 ;
+	setAttr ".lr" -type "double3" -24.167520482442804 0 0 ;
 	setAttr ".rst" -type "double3" 0 0 2.2204460492503131e-16 ;
 	setAttr -l on -k off ".int";
 	setAttr -l on ".w0";
@@ -35172,7 +35172,7 @@ createNode transform -n "CTRL_kuyruk_02" -p "CTRL_kuyruk_02_Grp";
 	setAttr -l on -k off ".sx";
 	setAttr -l on -k off ".sy";
 	setAttr ".rp" -type "double3" -1.9721522630525295e-31 1.0000000000000002 1.7033659180076548 ;
-	setAttr ".rpt" -type "double3" 0 -6.4392935428259079e-15 1.021405182655144e-14 ;
+	setAttr ".rpt" -type "double3" 0 -6.4392935428259079e-15 9.2426066800044282e-15 ;
 	setAttr ".sp" -type "double3" -1.9721522630525295e-31 1.0000000000000002 1.7033659180076548 ;
 createNode nurbsCurve -n "CTRL_kuyruk_02Shape" -p "CTRL_kuyruk_02";
 	rename -uid "EAA6A60C-4FC4-B6AA-D822-6A834A8192C9";
@@ -35228,7 +35228,7 @@ createNode parentConstraint -n "CTRL_kuyruk_02_Grp_parentConstraint2" -p "CTRL_k
 	setAttr -k off ".sz";
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 0 -1 -1 ;
-	setAttr ".lr" -type "double3" 6.0893913152964743 0 0 ;
+	setAttr ".lr" -type "double3" -16.627032680200628 0 0 ;
 	setAttr -l on -k off ".int";
 	setAttr -l on ".w0";
 createNode parentConstraint -n "CTRL_vis_Grp_parentConstraint1" -p "CTRL_vis_Grp";
@@ -35388,7 +35388,7 @@ createNode parentConstraint -n "JNT_kuyruk_04_parentConstraint1" -p "JNT_kuyruk_
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 1.313701723070943e-30 0 0.022211083379248375 ;
 	setAttr ".tg[0].tor" -type "double3" 0 2.2599200246016801e-29 0 ;
-	setAttr ".lr" -type "double3" -10.593363332302459 0 0 ;
+	setAttr ".lr" -type "double3" -15.907755299401877 -6.2999140939551461e-15 8.802242531896477e-16 ;
 	setAttr ".rst" -type "double3" 0.52404761178040982 -2.2204460492503131e-16 9.3089555935749746e-16 ;
 	setAttr -l on -k off ".int";
 	setAttr -l on ".w0";
@@ -35410,7 +35410,7 @@ createNode parentConstraint -n "JNT_kuyruk_03_parentConstraint1" -p "JNT_kuyruk_
 	setAttr ".tg[0].tot" -type "double3" -3.4031005883565794e-31 2.2204460492503131e-16 
 		0.022211083379248375 ;
 	setAttr ".tg[0].tor" -type "double3" 0 -89.999999999999901 0 ;
-	setAttr ".lr" -type "double3" 5.2418610035165466e-14 6.8421089272851435e-15 -28.695800363028738 ;
+	setAttr ".lr" -type "double3" -1.3665918678333184e-15 -1.2714432714918037e-14 0.67116349818235665 ;
 	setAttr ".rst" -type "double3" 0.93568210970005716 2.2204460492503131e-16 1.6621053150701516e-15 ;
 	setAttr -l on -k off ".int";
 	setAttr -l on ".w0";
@@ -35431,7 +35431,7 @@ createNode parentConstraint -n "JNT_kuyruk_02_parentConstraint1" -p "JNT_kuyruk_
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 0 0 0.022211083379247931 ;
 	setAttr ".tg[0].tor" -type "double3" 0 -89.999999999999901 0 ;
-	setAttr ".lr" -type "double3" 5.504859830917957e-14 1.5722993439264269e-14 -31.880827244952947 ;
+	setAttr ".lr" -type "double3" -1.5911496365051771e-14 -1.1701271729114148e-14 7.540487802242172 ;
 	setAttr ".rst" -type "double3" 0.72557700138690251 2.2204460492503131e-16 1.2888836689251493e-15 ;
 	setAttr -l on -k off ".int";
 	setAttr -l on ".w0";
@@ -35452,7 +35452,7 @@ createNode parentConstraint -n "JNT_kuyruk_01_parentConstraint1" -p "JNT_kuyruk_
 	setAttr ".erp" yes;
 	setAttr ".tg[0].tot" -type "double3" 0 0 0.022211083379247709 ;
 	setAttr ".tg[0].tor" -type "double3" 0 -89.999999999999901 0 ;
-	setAttr ".lr" -type "double3" 1.1910243841060895e-14 6.335063507930172e-16 -6.0893913152964743 ;
+	setAttr ".lr" -type "double3" -2.9897758576387649e-14 4.3688146548735109e-15 16.627032680200625 ;
 	setAttr ".rst" -type "double3" 0 1 1 ;
 	setAttr -l on -k off ".int";
 	setAttr -l on ".w0";
@@ -38186,46 +38186,46 @@ createNode animCurveTA -n "CTRL_kuyruk_01_rotateX";
 	rename -uid "FD5D3AF5-45DE-1DC9-30E3-3CBB7068FF32";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 3 -5.8827541637750356 7 10.129926471474221
+	setAttr -s 8 ".ktv[0:7]"  0 0 2 -18.589648100994395 7 10.129926471474221
 		 12 45.424122820440978 16 -7.4721817827271231 20 -48.195679966631808 26 6.0893913152964743
 		 30 -1.9870586602481906;
 createNode animCurveTA -n "CTRL_kuyruk_01_rotateY";
 	rename -uid "FC273F0A-418B-F533-42BC-C6898712E732";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 3 0 7 0 12 0 16 0 20 0 26 0 30 0;
+	setAttr -s 8 ".ktv[0:7]"  0 0 2 0 7 0 12 0 16 0 20 0 26 0 30 0;
 createNode animCurveTA -n "CTRL_kuyruk_01_rotateZ";
 	rename -uid "E373710A-4D04-416D-46B1-54A3541886F9";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 0 3 0 7 0 12 0 16 0 20 0 26 0 30 0;
+	setAttr -s 8 ".ktv[0:7]"  0 0 2 0 7 0 12 0 16 0 20 0 26 0 30 0;
 createNode animCurveTU -n "CTRL_kuyruk_01_scaleZ";
 	rename -uid "040369B8-4195-E828-CE5A-A4B8B921AD80";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 8 ".ktv[0:7]"  0 1 3 1 7 1 12 1 16 1 20 1 26 1 30 1;
+	setAttr -s 8 ".ktv[0:7]"  0 1 2 1 7 1 12 1 16 1 20 1 26 1 30 1;
 createNode animCurveTA -n "CTRL_kuyruk_02_rotateX";
 	rename -uid "6191EAD3-499F-7299-DA5F-BFA32CF880F2";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 7 ".ktv[0:6]"  0 0.023222910909201571 6 6.9857668464545206
-		 14 31.880827244952947 16 -24.892904682293587 23 -34.40610000445465 29 2.0267052866821609
-		 34 -2.3246908393070065;
+	setAttr -s 8 ".ktv[0:7]"  0 0.023222910909201571 4 -8.9411749713442745
+		 6 6.9857668464545206 14 31.880827244952947 16 -24.892904682293587 23 -34.40610000445465
+		 29 2.0267052866821609 34 -2.3246908393070065;
 createNode animCurveTA -n "CTRL_kuyruk_02_rotateY";
 	rename -uid "169708A8-4FAE-D94E-C714-99B176B42A03";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 7 ".ktv[0:6]"  0 0 6 0 14 0 16 0 23 0 29 0 34 0;
+	setAttr -s 8 ".ktv[0:7]"  0 0 4 0 6 0 14 0 16 0 23 0 29 0 34 0;
 createNode animCurveTA -n "CTRL_kuyruk_02_rotateZ";
 	rename -uid "0E0E2968-4F2B-A947-B505-1592BA382B7B";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 7 ".ktv[0:6]"  0 0 6 0 14 0 16 0 23 0 29 0 34 0;
+	setAttr -s 8 ".ktv[0:7]"  0 0 4 0 6 0 14 0 16 0 23 0 29 0 34 0;
 createNode animCurveTU -n "CTRL_kuyruk_02_scaleZ";
 	rename -uid "ED7EFE8D-4279-904B-6004-60B50B7919F5";
 	setAttr ".tan" 18;
 	setAttr ".wgt" no;
-	setAttr -s 7 ".ktv[0:6]"  0 1 6 1 14 1 16 1 23 1 29 1 34 1;
+	setAttr -s 8 ".ktv[0:7]"  0 1 4 1 6 1 14 1 16 1 23 1 29 1 34 1;
 createNode trackInfoManager -n "trackInfoManager1";
 	rename -uid "108FC8A9-4382-12DD-8D30-34B08EE4EA71";
 createNode animCurveTA -n "CTRL_kuyruk_03_rotateX";
