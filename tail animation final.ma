@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: tail animation final.ma
-//Last modified: Wed, Sep 23, 2026 06:15:01 PM
+//Last modified: Wed, Sep 23, 2026 06:23:20 PM
 //Codeset: 1252
 requires maya "2027";
 requires "stereoCamera" "10.0";
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202604221258-70da84b25e";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 26200)";
-fileInfo "UUID" "64905A71-42D2-1118-B4EC-5B8A8902F5EF";
+fileInfo "UUID" "D7126987-4351-D9D7-01F7-08990BD0EC3C";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "30BE2BA4-47FF-D7D8-8F86-FFBACC261487";
@@ -38277,7 +38277,8 @@ select -ne :time1;
 	setAttr -cb on ".ihi";
 	setAttr -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr ".o" 0;
+	setAttr ".o" 41;
+	setAttr ".unw" 41;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".vac" 2;
 	setAttr ".etmr" no;
