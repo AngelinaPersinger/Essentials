@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: room assignment.ma
-//Last modified: Sat, Oct 03, 2026 06:55:45 PM
+//Last modified: Sat, Oct 03, 2026 06:55:32 PM
 //Codeset: 1252
 requires maya "2027";
 requires "mtoa" "5.6.2";
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "012F04ED-4D43-FD08-4425-9AB644808B04";
+fileInfo "UUID" "48423E45-4831-02CA-03AE-66B0E940C6F4";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "0D0B7F84-4FA1-B106-330F-9AB9E9FDFA9F";
