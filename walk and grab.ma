@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: walk and grab.ma
-//Last modified: Wed, Oct 14, 2026 06:42:47 PM
+//Last modified: Wed, Oct 14, 2026 06:48:19 PM
 //Codeset: 1252
 requires maya "2027";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.6.1.1";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202604221258-70da84b25e";
 fileInfo "osv" "Windows 11 Enterprise v2009 (Build: 26200)";
-fileInfo "UUID" "51817CBF-40DE-5C34-28D2-8C9490B197C4";
+fileInfo "UUID" "2266F3B8-4A91-BF16-9D27-90AC699F7D09";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "2158BFD4-4CC2-0C4D-F302-F4B84EC02336";
@@ -128213,8 +128213,8 @@ select -ne :time1;
 	setAttr -cb on ".ihi";
 	setAttr -k on ".nds";
 	setAttr -cb on ".bnm";
-	setAttr ".o" 90;
-	setAttr ".unw" 90;
+	setAttr ".o" 83;
+	setAttr ".unw" 83;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".vac" 2;
 	setAttr ".etmr" no;
